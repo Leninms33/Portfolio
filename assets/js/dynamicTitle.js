@@ -11,7 +11,7 @@ window.onload = function () {
   function toggle(isPageActive) {
     if (isPageActive) {
       document.title = pageTitle
-      favicon.href = './assets/images/IMG_9400.PNG'
+      favicon.href = './assets/images/IMG_9400.svg'
     } else {
       document.title = attentionMessage
       favicon.href = './assets/images/folded.png'
